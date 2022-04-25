@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Cubes</title>
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <header class="header v_align">
+        <nav class="navigation d_flex">
+            <div class="logo d_flex">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="navigation_menues d_flex moveRight">
+                <ul class="navbar_lists">
+                    <li><a  class="home_link" >Home</a></li>
+                    <li><a  class="services_link">Services</a></li>
+                    <li><a  class="team_link">Team</a></li>
+                    <li><a  class="about_link">About Us</a></li>
+                    <li><a  class="contact_link">Contact Us</a></li>
+                </ul>
+                <div class="callmeBtn">
+                    <a href="tel:1234567891" class="btn">Call Me</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section: -->
+    <section class="section_home">
+        <div class="bgImg">
+            <img src="images/bg.jpg" alt="" srcset="">
+        </div>
+        <div class="container home_content d_flex">
+            <div class="home_img">
+                <img src="images/bg1.jpg" alt="">
+            </div>
+            <div class="home_text">
+                <h1>Welcome to Little Cubs</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat soluta aliquid pariatur? Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Ducimus doloribus odit est voluptas deleniti quo ipsam
+                    neque repellendus rem suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                    blanditiis dicta sit, qui a similique odit modi culpa asperiores, eaque eveniet beatae? Ullam totam
+                    fugiat nam consectetur voluptate libero ratione. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Repudiandae perferendis ad, iusto</p>
+                    <a class="btn home_btn">Contact us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section: -->
+    <section class="section_service">
+        <div class="container">
+            <h2 class="common_heading">Our Services:</h2>
+            <div class="card_container d_flex">
+                <div class="card">
+                    <img src="images/card1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Infants</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Toddlers</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/card3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pre School</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/card4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Arts lab</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/card5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mathematics</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/card6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Geography</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section: -->
+    <section class="section_team">
+        <div class="container">
+            <h2 class="common_heading">Our Team:</h2>
+            <div class="team_container d_flex">
+                <!-- Slider main container -->
+                <div class="swiper mySwiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="team_card d_flex d_flex_d_column">
+                                <img src="images/team1.png" alt="">
+                                <h2>Mr. Apurv Patel</h2>
+                                <p>Founder</p>
+                                <div class="icons d_flex">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_card d_flex d_flex_d_column">
+                                <img src="images/team3.png" alt="">
+                                <h2>Mrs. Tanisha Patel</h2>
+                                <p>Trainer</p>
+                                <div class="icons d_flex">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_card d_flex d_flex_d_column">
+                                <img src="images/team2.png" alt="">
+                                <h2>Mr. Rohit Patel</h2>
+                                <p>Trainer</p>
+                                <div class="icons d_flex">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_card d_flex d_flex_d_column">
+                                <img src="images/team4.png" alt="">
+                                <h2>Mr. Rahul Kumar</h2>
+                                <p>Trainer</p>
+                                <div class="icons d_flex">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_card d_flex d_flex_d_column">
+                                <img src="images/team5.png" alt="">
+                                <h2>Mrs. Priya Patel</h2>
+                                <p>Trainer</p>
+                                <div class="icons d_flex">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_card d_flex d_flex_d_column">
+                                <img src="images/team6.png" alt="">
+                                <h2>Mr. Kartik Patel</h2>
+                                <p>Trainer</p>
+                                <div class="icons d_flex">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="background_team">
+            </div>
+    </section>
+    <!-- About Us Section: -->
+    <section class="section_aboutus">
+        <div class="container">
+            <h2 class="common_heading">What We Think !</h2>
+            <div class="content_aboutus d_flex">
+                <div class="left_image">
+                    <img src="images/about1.jpg" alt="">
+                </div>
+                <div class="right_text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit delectus amet sint
+                        molestias, laboriosam praesentium eligendi eos iusto accusantium ducimus dolor odio maiores
+                        quidem libero aspernatur porro voluptates! Facilis sed commodi accusamus architecto ullam quam
+                        ipsam possimus libero obcaecati nobis nisi et corrupti saepe harum consequatur vitae,
+                        praesentium officiis?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint commodi corrupti nisi vitae est
+                        aliquam excepturi tempore voluptas repudiandae accusamus suscipit eum, assumenda distinctio et
+                        provident similique. Id blanditiis voluptatem reprehenderit nam eum cumque quae vero?</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio praesentium mollitia
+                        corrupti molestias consequuntur accusamus repudiandae qui. Dolores, facere. Odit quos
+                        exercitationem similique id et earum magnam blanditiis nostrum doloremque laborum? Beatae esse
+                        molestias ratione unde corrupti fuga quaerat omnis autem nihil totam cumque beatae ex harum odio
+                        ipsum! Molestias veniam rem hic!</p>
+                </div>
+            </div>
+            <div class="features d_flex">
+                <div class="feature_div f_div1 d_flex d_flex_d_column">
+                    <i class="fa-solid fa-school"></i>
+                    <h2>Good Infrasturcture</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eveniet ducimus numquam
+                        dignissimos in doloribus!</p>
+                </div>
+                <div class="feature_div f_div2 d_flex d_flex_d_column">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    <h2>Certified Tutor</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, amet repellat? Rerum, aspernatur?
+                        Aperiam, ipsa!</p>
+                </div>
+                <div class="feature_div f_div3 d_flex d_flex_d_column">
+                    <i class="fa-solid fa-tv"></i>
+                    <h2>Small Class Size</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum quam maiores quia iusto, ducimus
+                        non.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials: -->
+    <section class="section_testimonial">
+        <div class="freelancing_overlay">
+        </div>
+        <div class="container">
+            <h2 class="common_heading">What Client Says :)</h2>
+
+            <div class="swiper mySwiperTestimonial">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="client">
+                            <div class="client_text d_flex">
+                                <div class="cont_client_text">
+                                    <!-- <i class="fa-solid fa-quote-left fa-3x"></i> -->
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum id recusandae
+                                        animi et laborum magni, quae voluptates corrupti explicabo facere. </p>
+                                    <!-- <i class="fa-solid fa-quote-right fa-3x"></i> -->
+                                </div>
+                            </div>
+                            <div class="client_info">
+                                <img src="images/team5.png" alt="">
+                                <div class="combine_info">
+                                    <p class="bolder">Apurv Patel</p>
+                                    <p class="small">Enterpruner</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client">
+                            <div class="client_text d_flex">
+                                <div class="cont_client_text">
+
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum id recusandae
+                                        animi et laborum magni, quae voluptates corrupti explicabo facere. </p>
+
+                                </div>
+                            </div>
+                            <div class="client_info">
+                                <img src="images/team3.png" alt="">
+                                <div class="combine_info">
+                                    <p class="bolder">Apurv Patel</p>
+                                    <p class="small">Enterpruner</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client">
+                            <div class="client_text d_flex">
+                                <div class="cont_client_text">
+
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum id recusandae
+                                        animi et laborum magni, quae voluptates corrupti explicabo facere. </p>
+
+                                </div>
+                            </div>
+                            <div class="client_info">
+                                <img src="images/team1.png" alt="">
+                                <div class="combine_info">
+                                    <p class="bolder">Apurv Patel</p>
+                                    <p class="small">Enterpruner</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client">
+                            <div class="client_text d_flex">
+                                <div class="cont_client_text">
+
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum id recusandae
+                                        animi et laborum magni, quae voluptates corrupti explicabo facere. </p>
+
+                                </div>
+                            </div>
+                            <div class="client_info">
+                                <img src="images/team2.png" alt="">
+                                <div class="combine_info">
+                                    <p class="bolder">Apurv Patel</p>
+                                    <p class="small">Enterpruner</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contactus_section">
+        <div class="container ">
+            <h2 class="common_heading">Contact Us:</h2>
+            <div class="content_contactus d_flex">
+                <div class="google_map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58502.4513936752!2d72.3479593462779!3d23.589868075052994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c422caf789ef5%3A0x170bbc90b8be8bdc!2sMehsana%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1650825850202!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contactUs_static d_flex d_flex_d_column">
+                    <div class="text_info disp_flex">
+                        <div class="icon d_flex">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <p>Mehsana, Gujarat</p>
+                    </div>
+                    <div class="text_info disp_flex">
+                        <div class="icon d_flex">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <p>littlecubs@gmail.com</p>
+                    </div>
+                    <div class="text_info disp_flex">
+                        <a href="tel:1234567982" class="btn">Call me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footerSection d_flex d_flex_d_column">
+        <div class="footer_wrapper d_flex">
+            <div class="footerLinks">
+                <div class="logo_footer d_flex">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="icons d_flex">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="timing">
+                <p>Monday - Friday : 8 : 00 AM - 6 : 00 PM</p>
+                <div class="dashedLine"></div>
+                <p>Saturday - Sunday : Holiday</p>
+            </div>
+        </div>
+        <p class="copyright">copyright &copy all rights are reserved :)</p>
+    </footer>
+
+
+
+
+
+
+    <!-- JS Links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/lightgallery.min.js"></script>
+
+    <!-- lightgallery plugins -->
+    <script src="js/lg-thumbnail.min.js"></script>
+    <script src="js/lg-fullscreen.min.js"></script>
+</body>
+
+</html>
