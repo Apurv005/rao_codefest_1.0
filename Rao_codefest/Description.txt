@@ -1,0 +1,11 @@
+Hello, everyone... 
+I am Apurv Patel.... 
+I am glad to participate in Rao_codefest_v1.0.
+I have created the static website problem statement 1 - Playhouse 
+.
+I have created one page website which contains navigation menu, services, testimonials, and Google map. 
+
+But I couldn't make it responsive because of lack of time.. 
+So that is a single loophole of my website.. 
+
+Thanks for organizing such a type of code fest... 
